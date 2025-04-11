@@ -14,16 +14,32 @@ This project demonstrates **how to deploy a CNN model in ONNX format** across tw
 
 ```
 onnx_model_runner/
-├── mnist_opset11.onnx          # The final ONNX model (opset 11)
-├── windows_cpp_runner/         # Windows/C++ deployment code
+├── mnist_opset11.onnx            # The final ONNX model (opset 11)
+├── windows_cpp_runner/           # Windows/C++ deployment code
 │   └── main.cpp
 │   └── main.exe
 │   └── main.obj
 │   └── model.onnx
 │   └── onnxruntime.dll
-├── Android/                    # Android Studio project
+├── Android/                      # Android Studio project
 │   └── [All Java/Kotlin files, assets/ folder, layout, gradle etc.]
+│──  export_mnist_opset11.ipynb   # # Colab notebook to export a MNIST CNN model to ONNX format (opset 11)  
+│──  3 '.png' files               # Screenshots
 ```
+
+##  Colab Notebook: Exporting MNIST CNN as ONNX (opset 11)
+
+We used a minimal PyTorch CNN trained on MNIST and exported it to ONNX format (with `opset 11`) using the Colab notebook:
+
+📄 [`export_mnist_opset11.ipynb`](export_mnist_opset11.ipynb)
+
+###  What it does:
+- Defines a simple CNN model in PyTorch  
+- Uses dummy input of shape `(1, 1, 28, 28)`  
+- Converts and saves the model as `mnist_opset11.onnx` with `opset_version=11`  
+- Validates ONNX export using `onnx.checker.check_model`
+
+This file was used as the final model for **Android deployment** due to compatibility with `onnxruntime-mobile`.
 
 ---
 
