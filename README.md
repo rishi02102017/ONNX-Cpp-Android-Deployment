@@ -1,6 +1,4 @@
 
-<h1 align="center"> ONNX Model Deployment </h1>
-
 <p align="center">
   <img src="ONNX_Banner.png" alt="ONNX Logo" width="500"/>
 </p>
