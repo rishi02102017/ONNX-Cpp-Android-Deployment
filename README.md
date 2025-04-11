@@ -112,7 +112,7 @@ Loads model, prepares dummy input (1x1x28x28), and prints output scores.
 > 📸 **Screenshot**  
 ![Android Studio](https://github.com/rishi02102017/onnx-model-deployment/blob/main/Android_Studio.png)
 
-![Android Studio](https://github.com/rishi02102017/onnx-model-deployment/blob/main/Android_Studio.png)
+![Android Studio](https://github.com/rishi02102017/onnx-model-deployment/blob/main/Android_Studio_Pixel3.png)
 
 ---
 
