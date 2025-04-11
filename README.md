@@ -1,7 +1,10 @@
 
 <h1 align="center"> ONNX Model Deployment </h1>
 
-This project demonstrates deploying a tiny CNN model in ONNX format on both **Windows (C++)** and **Android** environments.
+This project demonstrates **how to deploy a CNN model in ONNX format** across two platforms:
+-  **Windows (C++ runtime using ONNX Runtime)**
+-  **Android (Native Kotlin + ONNX Runtime for Android)**
+
 
 ---
 
@@ -67,6 +70,8 @@ main.obj
 
 D:\onnx_model_runner>main.exe
 Model loaded successfully!
+
+```
 
 ##  Part 2: Deploy ONNX on Android
 
