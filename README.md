@@ -1,6 +1,10 @@
 
 <h1 align="center"> ONNX Model Deployment </h1>
 
+<p align="center">
+  <img src="ONNX_Banner.png" alt="Ekam Logo" width="500"/>
+</p>
+
 This project demonstrates **how to deploy a CNN model in ONNX format** across two platforms:
 -  **Windows (C++ runtime using ONNX Runtime)**
 -  **Android (Native Kotlin + ONNX Runtime for Android)**
