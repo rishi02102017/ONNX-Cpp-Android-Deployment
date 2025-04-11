@@ -104,8 +104,12 @@ Android/app/src/main/assets/mnist_opset11.onnx
 
 Loads model, prepares dummy input (1x1x28x28), and prints output scores.
 
+📲 App UI:
+- Shows `Inference result: [...]` on a blank 28x28 dummy image.
+
 > 📸 **Screenshot**  
 ![Android Studio](https://github.com/rishi02102017/onnx-model-deployment/blob/main/Android_Studio.png)
+
 ![Android Studio](https://github.com/rishi02102017/onnx-model-deployment/blob/main/Android_Studio.png)
 
 ---
