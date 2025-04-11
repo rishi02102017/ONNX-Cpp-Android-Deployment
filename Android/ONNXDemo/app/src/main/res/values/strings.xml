@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">ONNXDemo</string>
+    <string name="inference_output_placeholder">Inference output will appear here</string>
+    <string name="inference_output">Inference result: %1$s</string>
+    <string name="inference_failed">Inference failed: %1$s</string>
+</resources>
