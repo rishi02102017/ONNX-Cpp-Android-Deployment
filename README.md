@@ -23,7 +23,7 @@ onnx_model_runner/
 │   └── onnxruntime.dll
 ├── Android/                      # Android Studio project
 │   └── [All Java/Kotlin files, assets/ folder, layout, gradle etc.]
-│──  export_mnist_opset11.ipynb   # # Colab notebook to export a MNIST CNN model to ONNX format (opset 11)  
+│──  export_mnist_opset11.ipynb   # Colab notebook to export a MNIST CNN model to ONNX format (opset 11)  
 │──  3 '.png' files               # Screenshots
 ```
 
