@@ -69,7 +69,7 @@ int main() {
 }
 ```
 
-###  Build Command (ss1)
+###  Build Command (Q1)
 
 ```bash
 cl /EHsc main.cpp /I D:\onnxruntime-win-x64-1.21.0\include /link /LIBPATH:D:\onnxruntime-win-x64-1.21.0\lib onnxruntime.lib
